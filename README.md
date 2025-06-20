@@ -82,12 +82,7 @@ colmap model_orientation_aligner \
 git clone https://github.com/graphdeco-inria/gaussian-splatting --recursive
 cd gaussian-splatting
 ```
-
-Windows 用户：
-
-```bash
-SET DISTUTILS_USE_SDK=1
-```
+🔴**clone 以后，用本项目中的 train.py 文件替换 gaussian-splatting 中的 train.py 文件，以实现测试集划分。**
 
 ```bash
 conda env create --file environment.yml
